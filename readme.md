@@ -46,11 +46,11 @@ What currently works is loading IWAD and PWADs. I might add some additional func
 6. create your YAML config (`my_first_run_config.yml`) according to the following example:
     ```
     yzdoom_run:
-        iwad: doom2.wad
-        pwads: 
-            - brutalv21.pk3
-            - bd21.0.3patch.pk3
-            - mapsofchaos-ok.wad
+      iwad: doom2.wad
+      pwads: 
+        - brutalv21.pk3
+        - bd21.0.3patch.pk3
+        - mapsofchaos-ok.wad
     ```
     ***of course make sure you actually have these PWADs and IWAD!***
 

@@ -13,7 +13,6 @@ import subprocess
 import argparse
 import os
 import sys
-import shutil
 import yaml
 
 DOOM = r"""
@@ -74,7 +73,7 @@ def init_config(config_map):
     try:
         with open(os.path.expanduser('~/.config/yzdoom/defaults.yml'), 'w+') as default_config:
             yaml.safe_dump(config_map, default_config)
-    except:
+    except Exception:
        print('cannot create default config file')
 
 if ARGS.init_mode:

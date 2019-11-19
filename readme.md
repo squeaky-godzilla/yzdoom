@@ -1,14 +1,16 @@
 ![alt](img/yzdoom.png)
 
-# yaml-powered zdoom and gzdoom launcher
+# yaml-powered zdoom launcher for Python 3
 
-Bringing the feeling of DevOps to zdoom :)
+Bringing the feeling of DevOps to zdoom :) Made with :godmode:, :heart: and :snake:
 
 ## what it does?
 
 **yzdoom** is a launcher for [zdoom](https://https://www.zdoom.org/index) that's utilizing [YAML](https://yaml.org) to easily set up your favourite IWAD and PWAD zdoom configurations.
 
 ## how it works?
+
+you'll need ****python3**** to run this
 
 the launcher takes *default config* (mandatory) and *run config* (optional).
 if a *run config* is specified, the *default config* will be updated with it at runtime.
